@@ -1,7 +1,13 @@
-# About my website
+# About
 
-Welcome to my portfolio website! My name is Dinesh and I am a Software Engineer. On this website, you will find a selection of my past projects and experiences that showcase my skills and passion for Software Engineering / Machine Learning / Distributed Systems.
+ Founded in May 2024, Sonadot Technologies Pvt Ltd is a privately held IT consulting and services firm based in
+                        India, built on a bold vision: to engineer clarity in complexity and unlock digital possibilities for businesses of
+                        all sizes.
+                        We specialize in delivering tailored technology solutions that empower organizations to innovate, scale, and thrive
+                        in a rapidly evolving digital landscape. From cloud-native architectures and enterprise platforms to intelligent
+                        automation and strategic consulting, our services are designed to be agile, impactful, and future-ready.
+                        At Sonadot, we believe in "Imagining Tomorrow. Engineering Beyond." This isn’t just our tagline, it’s our mindset.
+                        We partner with clients not just to solve today’s challenges, but to co-create the future of technology.
+                        Whether you're a startup seeking rapid transformation or an enterprise navigating digital disruption, Sonadot is
+                        your trusted ally in building what’s next.
 
-In addition to my portfolio, you will also find my resume, which outlines my education and professional experience in detail. If you have any questions or would like to learn more about me and my work, please don't hesitate to contact me through the provided form on the website.
-
-I hope you enjoy exploring my portfolio and learning more about my journey. Thank you for visiting!
