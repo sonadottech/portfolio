@@ -9,5 +9,5 @@
                         At Sonadot, we believe in "Imagining Tomorrow. Engineering Beyond." This isn’t just our tagline, it’s our mindset.
                         We partner with clients not just to solve today’s challenges, but to co-create the future of technology.
                         Whether you're a startup seeking rapid transformation or an enterprise navigating digital disruption, Sonadot is
-                        your trusted ally in building what’s next.
+                        your trusted ally in building what’s next
 
