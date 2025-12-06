@@ -6,9 +6,26 @@
     <!--- basic page requirements
     ================================================== -->
     <meta charset="utf-8">
-    <title>SONADOT</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Sonadot Technologies - IT Consulting & Software Development Services</title>
+    <meta name="description" content="Sonadot Technologies Pvt Ltd is a privately held IT consulting and services firm based in India. We offer software development, product design, frontend & backend development, and UX research.">
+    <meta name="author" content="Sonadot Technologies">
+    <meta name="keywords" content="IT consulting, software development, product design, backend development, frontend development, UX research, cloud solutions, India">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Sonadot Technologies - IT Consulting & Development">
+    <meta property="og:description" content="Engineering clarity in complexity. Tailored tech solutions that empower businesses to innovate and scale.">
+    <meta property="og:image" content="https://www.sonadot.com/images/logo_transperant_white.png">
+    <meta property="og:url" content="https://www.sonadot.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sonadot Technologies - IT Consulting">
+    <meta name="twitter:description" content="Software development, product design, and consulting services for your business growth.">
+
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://www.sonadot.com">
 
     <!-- mobile specific
     ================================================== -->
@@ -31,6 +48,31 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Sonadot Technologies",
+      "url": "https://www.sonadot.com",
+      "logo": "https://www.sonadot.com/images/logo_transperant_white.png",
+      "description": "IT consulting and software development services",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+919767549682",
+        "contactType": "Customer Service",
+        "email": "info@sonadot.com"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/sonadot-technologies/"
+      ]
+    }
+    </script>
+
 </head>
 
 <body id="top">
@@ -52,27 +94,24 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a href="index.html">
-                <img src="images/logo_transperant_white.png" alt="Homepage">
+            <a href="index.html" title="Sonadot Technologies - Home">
+                <img src="images/logo_transperant_white.png" alt="Sonadot Technologies Logo - IT Consulting">
             </a>
         </div>
 
-        <div class="header-content">
+        <div class="header-content" >
 
-            <nav class="row header-nav-wrap">
+            <nav class="row header-nav-wrap me-3">
                 <ul class="header-nav">
-                    <!-- <li><a class="smoothscroll" href="#hero" title="It's what you're looking">Who we are</a></li> -->
-                    <li><a class="smoothscroll" href="#about" title="About">Who we are</a></li>
-                    <li><a class="smoothscroll" href="#services" title="have a look">What we do </a></li>
-                    <!-- <li><a class="smoothscroll" href="#portfolio" title="Works">Projects</a></li> -->
-                    <!-- <li><a href="mailto:info@sonadot.com" title="Contact us">Contact us</a></li> -->
+                    <li><a class="smoothscroll" href="#about" title="Learn about Sonadot Technologies">Who we are</a></li>
+                    <li><a class="smoothscroll" href="#services" title="View our services and expertise">What we do </a></li>
                 </ul>
-            </nav> <!-- end header-nav-wrap -->
+            </nav>
 
             <a href="mailto:info@sonadot.com"
-                class="btn btn--stroke btn--small">Contact Us</a>
+                class="btn btn--stroke btn--small" title="Contact Sonadot Technologies">Contact Us</a>
 
-        </div> <!-- end header-content -->
+        </div>
 
         <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
 
@@ -81,7 +120,7 @@
 
     <!-- hero
     ================================================== -->
-    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="images/bot.jpg"
+    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="images/bg.webp"
         data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="row hero-content">
@@ -90,13 +129,13 @@
 
 
                 <h1>
-                    Imagining Tommorow.
+                    Imagining Tomorrow.
                     Engineering Beyond.
                 </h1>
 
                 <ul class="hero-social">
                     <li>
-                        <a href="https://www.linkedin.com/company/sonadot-technologies/" title="">➜LinkedIn</a>
+                        <a href="https://www.linkedin.com/company/sonadot-technologies/" title="Visit Sonadot on LinkedIn">➜LinkedIn</a>
                     </li>                                                                         
                     <li></li>
                 </ul> <!-- end hero-social -->
@@ -106,7 +145,7 @@
         </div> <!-- end hero-content -->
 
         <div class="hero-scroll">
-            <a href="#about" class="scroll-link smoothscroll">
+            <a href="#about" class="scroll-link smoothscroll" title="Scroll to about section">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                     <path d="M12 24l-8-9h6v-15h4v15h6z" /></svg>
             </a>
@@ -127,16 +166,16 @@
                 <div class="column large-6 medium-8 tab-full">
 
                     <div class="section-intro" data-num="01" data-aos="fade-up">
-                        <h3 class="subhead">About Us</h3>
-                        <h1 class="display-1">Tech That impacts business</h1>
+                        <h2 class="subhead">About Us</h2>
+                        <h3 class="display-1">Tech That impacts business</h3>
                     </div>
 
                     <div class="profile-pic" data-aos="fade-up">
-                        <img src="images/Dump/"
-                            srcset="images/Dump/profile-pic.png 1x, images/Dump/profile-pic@2x.png 2x" alt="">
+                        <img src="images/Dump/profile-pic.png"
+                            srcset="images/Dump/profile-pic.png 1x, images/Dump/profile-pic@2x.png 2x" alt="Sonadot Technologies Team - IT Consulting Experts">
                     </div>
 
-                    <h2 data-aos="fade-up">About Us ➜</h2>
+                    <h4 data-aos="fade-up">About Us ➜</h4>
 
                     <p data-aos="fade-up">
                         <br>
@@ -147,10 +186,10 @@
                         We specialize in delivering tailored technology solutions that empower organizations to innovate, scale, and thrive
                         in a rapidly evolving digital landscape. From cloud-native architectures and enterprise platforms to intelligent
                         automation and strategic consulting, our services are designed to be agile, impactful, and future-ready.
-                        At Sonadot, we believe in "Imagining Tomorrow. Engineering Beyond." This isn’t just our tagline, it’s our mindset.
-                        We partner with clients not just to solve today’s challenges, but to co-create the future of technology.
+                        At Sonadot, we believe in "Imagining Tomorrow. Engineering Beyond." This isn't just our tagline, it's our mindset.
+                        We partner with clients not just to solve today's challenges, but to co-create the future of technology.
                         Whether you're a startup seeking rapid transformation or an enterprise navigating digital disruption, Sonadot is
-                        your trusted ally in building what’s next.
+                        your trusted ally in building what's next.
                     </p>
 
                 </div>
@@ -221,7 +260,7 @@
                         </div>
                         <div class="services-list__item-body">
                             <p>
-                                Ideas are far from linear.We are well acquainted with Object oriented fundamentals and
+                                Ideas are far from linear. We are well acquainted with Object oriented fundamentals and
                                 programming using .Net, C#, DBMS concepts, various Frameworks and
                                 application development methodologies and the integrations required.
                             </p>
@@ -233,7 +272,7 @@
                         </div>
                         <div class="services-list__item-body">
                             <p>
-                                This is where problem solving meets visual impact. W'll unite products and users,
+                                This is where problem solving meets visual impact. We'll unite products and users,
                                 designs and experiences.
                             </p>
                         </div>
@@ -246,11 +285,10 @@
                             <p>
                                 We love clean, minimal and abstract designs, typos, mockups, illustrations and
                                 wallpapers.
-                                We make sure that my creations follow the same too!
+                                We make sure that our creations follow the same too!
                             </p>
                         </div>
                     </li> <!-- services-list__item -->
-                    <!-- services-list__item -->
                 </ul> <!-- end services-list -->
             </div>
 
@@ -285,7 +323,7 @@
                 </div>
 
                 <div class="footer-email-us">
-                    <a href="mailto:info@sonadot.com" class="btn btn--primary h-full-width">Let's Talk</a>
+                    <a href="mailto:info@sonadot.com" class="btn btn--primary h-full-width" title="Send us an email">Let's Talk</a>
                 </div>
             </div>
 
@@ -304,7 +342,7 @@
                             Phone
                         </h5>
                         <p class="footer-contact-block__content">
-                            <a href="tel:+919767549682">(+91)  976-754-9682</a>
+                            <a href="tel:+919767549682">(+91) 976-754-9682</a>
                         </p>
                     </div> <!-- end footer-contact-block -->
                     <br>
@@ -313,7 +351,7 @@
                             Social
                         </h5>
                         <ul class="footer-contact-block__list">
-                            <li><a href="https://www.linkedin.com/company/sonadot-technologies/">➜LinkedIn</a></li>                                                        
+                            <li><a href="https://www.linkedin.com/company/sonadot-technologies/" title="Connect with us on LinkedIn">➜LinkedIn</a></li>                                                        
                         </ul>
                     </div> <!-- end footer-contact-block -->
                 </div>
@@ -322,8 +360,7 @@
 
         <div class="row s-footer__bottom">
             <div class="column large-full ss-copyright">
-                <span>©2025 Sonadot</span>
-                <span><a href="https://dineshshitole.github.io/portfolio/me/"></a></span>
+                <span>©2025 Sonadot Technologies. All rights reserved.</span>
             </div> <!-- end ss-copyright -->
 
             <div class="ss-go-top">
@@ -385,3 +422,4 @@
     <script src="js/main.js"></script>
 
 </body>
+</html>

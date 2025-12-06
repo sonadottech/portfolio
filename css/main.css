@@ -1670,6 +1670,7 @@ input::-moz-focus-inner {
 .header-nav-wrap {
   max-width: 1400px;
   padding-left: 10px;
+  margin-left: 100px;
 }
 
 .header-nav {
